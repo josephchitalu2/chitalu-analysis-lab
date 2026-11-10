@@ -1,0 +1,3 @@
+Chitalu Software Solutions
+Benign training fixture for file hashing and string extraction.
+No executable behavior.

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "sample_name": "hello.txt",
+  "size_bytes": 115,
+  "sha256": "89a52c9d0a35943502792b127846c074f500dc60b08fa11a5de08d9a2b12d570",
+  "coarse_type": "Unknown",
+  "shannon_entropy_bits_per_byte": 4.304369,
+  "ascii_strings": [
+    {
+      "offset": 0,
+      "text": "Chitalu Software Solutions",
+      "truncated": false
+    },
+    {
+      "offset": 27,
+      "text": "Benign training fixture for file hashing and string extraction.",
+      "truncated": false
+    },
+    {
+      "offset": 91,
+      "text": "No executable behavior.",
+      "truncated": false
+    }
+  ],
+  "strings_limit": 200,
+  "analysis": "Static bytes only; no execution, uploads or network requests.",
+  "limits": "Signatures, strings and entropy do not establish maliciousness."
+}

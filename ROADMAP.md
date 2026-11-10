@@ -3,6 +3,7 @@
 ## Completed in this starter
 - Offline, bounded static triage.
 - Unit tests using synthetic fixtures.
+- Documentation checks and a GitHub Actions workflow.
 - Benign text and C exercises.
 - Architecture, case workflow and reporting template.
 
@@ -17,7 +18,7 @@
 - Reverse-engineering notes with reproducible addresses/build settings.
 - Memory acquisition and analysis exercise.
 - YARA and behavior-rule tests.
-- Automated checks and documentation review.
+- Broader analysis checks and documentation review.
 
 ## Public case portfolio
 - Authorized training cases only.

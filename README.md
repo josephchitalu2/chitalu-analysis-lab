@@ -41,8 +41,8 @@ Do not commit executable malware, disk or memory images, secrets, victim data or
 
 ## Status and contribution
 
-Implemented: offline triage, synthetic tests, benign training material and lab procedures.
-Planned: reproducible VM setup evidence, controlled dynamic exercises, detection-rule validation, CI and a report portfolio. See the roadmap.
+Implemented: offline triage, synthetic tests, benign training material, lab procedures and automated repository checks.
+Planned: reproducible VM setup evidence, controlled dynamic exercises, detection-rule validation and a report portfolio. See the roadmap.
 
 Keep reproducible observations, limitations, tool versions and hashes with every report. Contributions should improve tools, documentation, exercises or tests; never introduce live samples into the repository.
 
@@ -58,3 +58,7 @@ Keep reproducible observations, limitations, tool versions and hashes with every
 - x64dbg: https://github.com/x64dbg/x64dbg
 
 Original starter code is MIT licensed. Third-party tools retain their own licenses.
+
+## Maintenance
+
+[Verification](docs/TESTING.md) · [Contributing](CONTRIBUTING.md) · [Security reporting](SECURITY.md)

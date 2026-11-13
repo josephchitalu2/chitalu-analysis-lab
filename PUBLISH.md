@@ -1,4 +1,4 @@
-# Working with this repository
+# Publishing analysis lab changes
 
 This starter contains a tested offline triage tool, benign exercises and lab documentation. It is not a provisioned analysis VM.
 
@@ -9,4 +9,4 @@ python3 -m unittest discover -s tests -v
 python3 tools/triage.py training/hello.txt
 ```
 
-After reviewing changes, commit and push through your own authenticated GitHub environment or the authorized connector. Do not commit malware, private evidence, passwords or environment secrets.
+Run the checks in [the verification guide](docs/TESTING.md) and review the staged files before opening a pull request. Publish source, benign fixtures and approved, redacted reports. Keep malware, private evidence, passwords and environment secrets out of the repository.

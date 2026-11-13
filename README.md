@@ -7,6 +7,7 @@ The goal is a complete, documented analysis workflow: intake, static triage, dis
 ## Start here
 
 Requires Python 3.10+ for the included tooling; no third-party packages.
+Follow the [first triage exercise](docs/TRIAGE.md) to interpret the result.
 
 ```bash
 python3 -m unittest discover -s tests -v
@@ -29,7 +30,7 @@ Use only the included benign text and source exercises until the VM environment 
 
 ## Workstation and VM plan
 
-This project is not limited by the founder's current laptop. A practical target allocation is a host with around 32 GB RAM and separate Windows analysis and Linux analysis guests; increase allocations for memory forensics and automation. These are planning allocations, not upstream minimum requirements or a purchasing recommendation.
+The static triage exercise runs without a VM. The planned analysis environment uses separate Windows and Linux guests. The [lab architecture](docs/LAB_ARCHITECTURE.md) explains the isolation and resource plan.
 
 Windows: FLARE-VM, Ghidra, x64dbg, Procmon, Process Explorer, Wireshark, capa, FLOSS and YARA.
 Linux: REMnux, Ghidra, GDB, binutils, Python, capa, FLOSS and YARA.
@@ -57,7 +58,7 @@ Keep reproducible observations, limitations, tool versions and hashes with every
 - YARA: https://github.com/VirusTotal/yara
 - x64dbg: https://github.com/x64dbg/x64dbg
 
-Original starter code is MIT licensed. Third-party tools retain their own licenses.
+Original starter code is [MIT licensed](LICENSE). Third-party tools retain their own licenses.
 
 ## Maintenance
 

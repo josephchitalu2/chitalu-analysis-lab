@@ -6,13 +6,16 @@ The goal is a complete, documented analysis workflow: intake, static triage, dis
 
 ## Start here
 
-Requires Python 3.10+ for the included tooling; no third-party packages.
-Follow the [first triage exercise](docs/TRIAGE.md) to interpret the result.
+Requires Python 3.10+. The triage tool runs with the standard library.
 
 ```bash
-python3 -m unittest discover -s tests -v
-python3 tools/triage.py training/hello.txt --output report.json
+git clone https://github.com/josephchitalu2/chitalu-analysis-lab.git
+cd chitalu-analysis-lab
+python3 tools/triage.py training/hello.txt
 ```
+
+Compare your output with the [sample report](reports/benign-triage-example.json).
+The [first exercise](docs/TRIAGE.md) explains each field and how to save a report.
 
 The triage tool calculates SHA-256, Shannon entropy, a coarse file signature and bounded ASCII strings. Results are observations, not a malware verdict. Entropy and a file signature do not establish whether a file is malicious. JSON output escapes non-ASCII and control characters.
 
